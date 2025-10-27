@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IELTS Vocab Support</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <div class="container">
+        <div class="header-content">
+          <div class="logo-section">
+            <div class="logo-placeholder">
+              <img src="assets/Icon.png" alt="IELTS Vocab Logo" width="40" height="40" style="border-radius: 8px" />
+            </div>
+            <div class="app-info">
+              <h1 class="app-name">IELTS Vocab</h1>
+              <p class="app-subtitle">Master IELTS Vocabulary</p>
+            </div>
+          </div>
+          <nav class="nav">
+            <a href="#contact" class="nav-link">Contact</a>
+            <a href="#faq" class="nav-link">FAQ</a>
+            <a href="#privacy" class="nav-link">Privacy</a>
+          </nav>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="container">
+          <div class="hero-content">
+            <h2 class="hero-title">Need Help with IELTS Vocab?</h2>
+            <p class="hero-description">
+              Welcome to IELTS Vocab support! Whether you have questions about features,
+              need technical assistance, or want to share feedback, we’re here to help
+              you build your vocabulary with confidence.
+            </p>
+            <a href="#contact" class="cta-button">Get Support</a>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="section-title">Contact Us</h3>
+            <p class="section-description">Send us a message and we’ll get back to you as soon as possible.</p>
+          </div>
+
+          <div class="contact-content">
+            <div class="contact-methods">
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    <polyline points="22,6 12,13 2,6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Email Support</h4>
+                  <p>cleevao@gmail.com</p>
+                </div>
+              </div>
+              <div class="contact-method">
+                <div class="contact-icon">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                    <path d="M22 12H18L15 21L9 3L6 12H2" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Response Time</h4>
+                  <p>Within 24 hours</p>
+                </div>
+              </div>
+            </div>
+
+            <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="POST" novalidate>
+              <!-- Replace with your Web3Forms access key -->
+              <input type="hidden" name="access_key" value="829bad0e-a2cb-4dfb-a0a7-a6daef7ab15f" />
+              <input type="hidden" name="subject" value="New Contact Form Submission from IELTS Vocab Support" />
+              <input type="hidden" name="from_name" value="IELTS Vocab Support Website" />
+
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required />
+              </div>
+
+              <div class="form-group">
+                <label for="email">Email *</label>
+                <input type="email" id="email" name="email" required />
+              </div>
+
+              <div class="form-group">
+                <label for="topic">Subject *</label>
+                <select id="topic" name="topic" required>
+                  <option value="">Select a topic</option>
+                  <option value="Technical Issue">Technical Issue</option>
+                  <option value="Account Problem">Account Problem</option>
+                  <option value="Billing Question">Billing Question</option>
+                  <option value="Feature Request">Feature Request</option>
+                  <option value="General Feedback">General Feedback</option>
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Message *</label>
+                <textarea id="message" name="message" rows="5" placeholder="Please describe your issue or question in detail..." required></textarea>
+              </div>
+
+              <input type="checkbox" name="botcheck" class="hidden" style="display: none" />
+              <button type="submit" class="submit-button">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ Section -->
+      <section id="faq" class="faq-section">
+        <div class="container">
+          <div class="section-header">
+            <h3 class="section-title">Frequently Asked Questions</h3>
+            <p class="section-description">Find quick answers to common IELTS Vocab questions.</p>
+          </div>
+
+          <div class="faq-list">
+            <!-- FAQ content will be loaded dynamically from FAQ.md -->
+            <div style="text-align: center; padding: 40px; color: #718096">
+              <p>Loading FAQ content...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Privacy Section -->
+      <section id="privacy" class="privacy-section">
+        <div class="container">
+          <div class="privacy-content">
+            <div class="privacy-icon">
+              <svg width="48" height="48" viewBox="0 0 48 48" fill="none">
+                <path d="M24 2L36 8V22C36 32 30 41 24 46C18 41 12 32 12 22V8L24 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M18 24L22 28L30 20" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="privacy-text">
+              <h3>Privacy & Data Protection</h3>
+              <p>
+                We take your privacy seriously and are committed to protecting your personal information.
+                Read our privacy policy to learn more.
+              </p>
+              <a href="privacy-policy.html" class="privacy-link">View Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div class="footer-section">
+            <div class="footer-logo">
+              <div class="logo-placeholder">
+                <img src="assets/Icon.png" alt="IELTS Vocab Logo" width="32" height="32" style="border-radius: 6px" />
+              </div>
+              <span>IELTS Vocab</span>
+            </div>
+            <p>Build your IELTS vocabulary faster</p>
+          </div>
+
+          <div class="footer-links">
+            <div class="footer-column">
+              <h4>Support</h4>
+              <a href="#contact">Contact Us</a>
+              <a href="#faq">FAQ</a>
+              <a href="mailto:cleevao@gmail.com">Email Support</a>
+            </div>
+
+            <div class="footer-column">
+              <h4>Legal</h4>
+              <a href="privacy-policy.html">Privacy Policy</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>&copy; 2025 IELTS Vocab. All rights reserved.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="faq-loader.js"></script>
+  </body>
+</html>
