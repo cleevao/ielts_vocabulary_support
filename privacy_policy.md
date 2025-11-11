@@ -1,53 +1,53 @@
 # Privacy Policy — IELTS Vocab
 
-Last updated: 27.10.2025
+Last updated: 11.11.2025
 
-This Privacy Policy describes how IELTS Vocab handles information when you use the app. We focus on simplicity and privacy: the app saves your learning progress locally on your device and does not transmit that progress to our servers.
+This Privacy Policy explains what data the app handles and how.
 
 ## Summary
-- The app is designed for general audiences.
-- We do not collect or transmit personal information or your learning progress.
-- Learning content is fetched from our backend (Supabase) without sending personal identifiers or progress.
-- Ads are served by Google AdMob. AdMob may collect device-related information to deliver ads; we do not access those identifiers.
-- You can remove all locally saved data by uninstalling the app.
+- General audience app.
+- Most features work without sign-in.
+- If you sign in, we create a basic account and may sync your learning data to enable continuity.
+- Content is fetched via secure requests; personal identifiers are only used when needed for account features.
+- Ads are delivered by Google Mobile Ads. We do not directly access the device advertising identifier (IDFA) and do not track you across apps.
 
-## Local Device Storage (not collected)
-The app saves some information only on your device to function properly. This information is not transmitted to us and is under your control:
-- Learning progress markers (e.g., set/quiz status)
-- UI preferences (e.g., last selected level)
-- Removing the app deletes this local data.
+## Data We Handle
+- Account info (email, username) — only if you choose to sign in.
+- Learning progress and saved content — stored on your device; optionally synced to your account when signed in.
+- Subscription status — used to determine access to premium features.
 
-## Remote Requests (content only)
-The app retrieves learning content from our backend (Supabase) via secure HTTPS requests.
+## Local Storage
+The app stores data on your device for functionality and offline use (e.g., progress markers, saved words, preferences). Removing the app or clearing app data deletes this local data.
 
-## Advertising (Google AdMob)
-We use Google Mobile Ads to show ads:
-- AdMob may collect device-related information (e.g., device type, ad interactions) to deliver and measure ads.
-- We do not request App Tracking Transparency (ATT) permission and do not track you across apps.
-- We do not access the advertising identifier (IDFA) or other device identifiers ourselves.
+## Cloud Sync (optional)
+If you sign in, we link your data to your account so you can restore it across devices. We store only the minimum necessary information to provide this functionality. We do not sell your personal data.
 
-You can manage ad personalization in your device settings (Limit Ad Tracking) and through Google’s privacy controls.
+## Advertising
+We use Google Mobile Ads to show ads. Google may collect device-related information to deliver and measure ads. We do not link your account or learning data to advertising networks.
+
+- Consent/ATT: Where required, a consent dialog may appear. If you do not consent, ads are served non‑personalized. You can manage ad preferences in your device settings.
+- IDFA: We do not directly access IDFA in the app.
 
 ## Data Sharing
-- We do not collect,store and sell your data.
-- We do not collect,store, share progress or personal data with third parties.
-- Third parties involved: Supabase (content delivery) and Google AdMob (ad delivery). Supabase receives only non-personal content queries; AdMob handles its own ad-related data per Google’s policies.
+We do not sell your data. We share information only with service providers that help deliver the app (e.g., cloud hosting, ad delivery) under appropriate agreements.
 
 ## Retention and Deletion
-- Local device data persists on your device. Uninstalling the app removes it.
-- We do not retain copies of your progress or personal data on our servers.
+- Account and synced data are retained while your account exists.
+- Local device data remains on your device; uninstalling the app removes it.
+- To request deletion of your account data, contact: cleevao@gmail.com.
+- If you purchased a subscription through Apple, cancel it in the App Store. Account deletion does not cancel billing.
 
 ## Your Rights and Choices
-- Control local data: you can clear app data via system settings or uninstall the app.
-- Manage ads: use device privacy settings and Google’s controls to limit ad personalization.
+- Control local data via device settings or by uninstalling the app.
+- Manage ad preferences in device privacy settings and Google controls.
+- Contact us to delete your account data.
 
 ## Changes to This Policy
-We may update this policy to reflect app or legal changes. We will update the "Last updated" date above.
+We may update this policy as the app or laws change. The "Last updated" date reflects the latest version.
 
 ## Contact
 Questions? Contact us at: cleevao@gmail.com
 
 ## Legal Basis (EU/EEA)
-Where applicable under the GDPR:
-- Local device processing: necessary for performance of the app and your use of its features.
-- Ad delivery (AdMob): legitimate interests in supporting the free app experience; users can manage ad preferences via device and Google settings.
+- App functionality: necessary for performance of the app and your use of its features.
+- Ads: legitimate interests in supporting a free app experience; consent where required.
