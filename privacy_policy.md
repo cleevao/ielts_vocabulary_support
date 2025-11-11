@@ -34,7 +34,7 @@ We do not sell your data. We share information only with service providers that 
 ## Retention and Deletion
 - Account and synced data are retained while your account exists.
 - Local device data remains on your device; uninstalling the app removes it.
-- To request deletion of your account data, contact: cleevao@gmail.com.
+- In profile page, you can delete your account and all associated data immediately. All data will be permanently deleted in your local device data and in our remote database. This action is irreversible.
 - If you purchased a subscription through Apple, cancel it in the App Store. Account deletion does not cancel billing.
 
 ## Your Rights and Choices
